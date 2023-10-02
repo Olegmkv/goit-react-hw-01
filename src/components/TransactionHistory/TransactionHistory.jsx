@@ -1,8 +1,8 @@
-import style from './TransactionHistory.css'
+import styles from './TransactionHistory.module.css'
 
 export const TransactionHistory = ({transaction}) => {
 return (
-<table className="transactionHistory">
+  <table className={styles.transactionhistory}>
   <thead>
     <tr>
       <th>Type</th>
