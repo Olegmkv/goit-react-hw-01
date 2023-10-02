@@ -1,0 +1,23 @@
+.statlist {
+    display: flex;
+}
+
+.item {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 110px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+
+.percentage {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
